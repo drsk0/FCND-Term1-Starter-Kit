@@ -1,0 +1,2 @@
+git+https://github.com/drsk0/udacidrone.git
+visdom==0.2.4
