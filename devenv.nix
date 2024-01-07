@@ -7,6 +7,8 @@
   # https://devenv.sh/packages/
   packages = [pkgs.python311Packages.pip 
               pkgs.python311Packages.black 
+              pkgs.python311Packages.python-lsp-server
+              pkgs.pyright
 
               pkgs.python311Packages.mathlibtools
               pkgs.python311Packages.jupyter
@@ -41,6 +43,8 @@
               pkgs.python311Packages.tifffile
               pkgs.python311Packages.lazy-loader
               pkgs.python311Packages.numpy
+
+              pkgs.vscode
               ];
 
   # https://devenv.sh/scripts/
